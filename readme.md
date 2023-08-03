@@ -18,3 +18,6 @@ Example image:
 - run `npm install`
 - run `npm run start`
 - set correct **instance id** and **layer id** in `main.js`
+
+## Misc.
+Original `readme.md` file was renamed to [`original-ol-readme.md`](./original-ol-readme.md)
