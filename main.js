@@ -16,7 +16,7 @@ const shLayerParams = {
   "time": time
 };
 
-// limiting extent via `extent` parameter for TileLayer
+// limiting spatial extent via `extent` parameter for TileLayer
 // https://openlayers.org/en/latest/apidoc/module-ol_layer_Tile-TileLayer.html
 const shLayer1 = new TileLayer({
   extent: [
@@ -33,7 +33,7 @@ const shLayer1 = new TileLayer({
   })
 });
 
-// limiting extent via `geometry` parameter for Sentinel Hub WMS request
+// limiting spatial extent via `geometry` parameter for Sentinel Hub WMS request
 // https://docs.sentinel-hub.com/api/latest/api/ogc/additional-request-parameters/#additional-request-parameters
 const geometry = `POLYGON ((1400824.991231 5140695.839717,1410987.458865 5140695.839717,1410987.458865 5147804.477836,1400824.991231 5147804.477836,1400824.991231 5140695.839717))`;
 const shLayer2 = new TileLayer({
