@@ -1,6 +1,6 @@
 # OpenLayers + Sentinel Hub WMS
 
-Created by following instructions at https://openlayers.org/doc/quickstart.html
+Created by following instructions at https://openlayers.org/doc/quickstart.html (original `readme.md` file was renamed to [`original-ol-readme.md`](./original-ol-readme.md))
 
 This example demonstrates the use of Sentinel Hub WMS with OpenLayers.
 
@@ -18,6 +18,3 @@ Example image:
 - run `npm install`
 - run `npm run start`
 - set correct **instance id** and **layer id** in `main.js`
-
-## Misc.
-Original `readme.md` file was renamed to [`original-ol-readme.md`](./original-ol-readme.md)
