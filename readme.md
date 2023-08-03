@@ -1,20 +1,20 @@
-# OpenLayers + Vite
+# OpenLayers + Sentinel Hub WMS
 
 Created by following instructions at https://openlayers.org/doc/quickstart.html
 
-This example demonstrates how the `ol` package can be used with [Vite](https://vitejs.dev/).
+This example demonstrates the use of Sentinel Hub WMS with OpenLayers.
 
-To get started, run the following (requires Node 14+):
+It contains 2 examples of how to limit the extent of the data
+- using `extent` parameter for `TileLayer` (`shLayer1` in `main.js`)
+- using `geometry` parameter for Sentinel Hub WMS request (`shLayer2` in `main.js`) 
 
-    npx create-ol-app my-app --template vite
+When zoomed to Rome, the map should display 2 rectangles with your data.
 
-Then change into your new `my-app` directory and start a development server (available at http://localhost:5173):
+Example image:
 
-    cd my-app
-    npm start
+![screenshot](./screenshot.png)
 
-To generate a build ready for production:
-
-    npm run build
-
-Then deploy the contents of the `dist` directory to your server.  You can also run `npm run serve` to serve the results of the `dist` directory for preview.
+## Development
+- run `npm install`
+- run `npm run start`
+- set correct **instance id** and **layer id** in `main.js`
